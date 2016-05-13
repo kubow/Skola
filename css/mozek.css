@@ -1,0 +1,126 @@
+/* Developped by KuBoW */
+/* 1 7 / 1 1 / 2 0 1 5 */
+/* first import stylesheets */
+/* css - forms and text */
+@import url("text.css");
+@import url("forms.css");
+/* rest of code here */
+*
+{
+    margin:0;padding:0;
+}
+html,body {
+    height: 100%;
+    background-color: ghostwhite;
+}
+body {
+  padding: 1em 5em 0 5em;
+}
+/* html5 containers */
+header,footer /*,div*/ {
+   width: 100%; 
+   margin:0;padding:0;
+   position: relative;
+   z-index:1;
+}
+header {
+    height: 6em;
+    margin-bottom: 2em;
+    background-color: grey;
+    /*box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5);*/
+}
+footer {
+    height: 2em;
+    background-color: black;
+    color: white;
+    text-align: right;
+    margin-right: 2em;
+    /*box-shadow: 10px 10px 5px #8888888;*/
+}
+
+/* Main content features */
+
+#obal /*.container*/ {
+    /*height: 100%;*/
+    /*top: 10em;*/
+    background: pink;
+    /*margin: -64px 0 -24px 0;*/
+    /*padding: 64px 0 24px 0;*/
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#mezi /*.content */ {
+    overflow:auto;
+    height:100%;
+    margin: 0 auto;
+}
+
+#polozka {
+	height: 4em;
+	width: 100%;
+}
+
+/* Menu design */
+
+#logo {
+  height: 4em;
+  width: 100%;
+  margin: 0;
+  padding-left: 40em;
+  /* will be float */
+  /*background-color: greenyellow;*/
+  /* image as bacgground image */
+}
+
+.menu {
+  height: 2em;
+  padding: 0.1em 1em 0 1em;
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  /*width: 100%-2em;*/
+  vertical-align: bottom;
+  background-color: #fa777f;
+  border-radius: 0.75em;
+  vertical-align: text-bottom;
+}
+
+.menu li {
+  min-width: 8em;
+  float: left;
+  margin-right: 0.3em;
+  margin-top: -0.1em;
+  text-align: center;
+  /*-webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;*/
+  box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5);
+}
+
+.menu li a:link,
+.menu li a:visited {
+  ackground-color: aqua;
+  display: block;
+  padding: 0.2em;
+  text-decoration: none;
+  fonth-weight: bold;
+  margin: 0 0 0.2em 0; 
+}
+
+.menu li a:hover {
+  background-color: aquamarine;
+  /* zoom polozek menu */
+  /*-webkit-transform: scale(2,2);
+  -ms-transform: scale(2,2);
+  transform: scale(2,2);*/
+}
+
+,menu a {
+  display: block;
+  width: 80px;
+}
+
+
+.clear {
+  clear: both;
+}
