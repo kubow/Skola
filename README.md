@@ -1,2 +1,2 @@
 # Skola
-System pro spravu zivatelu
+System pro spravu uzivatelu
